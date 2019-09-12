@@ -27,12 +27,12 @@
     <div class="hitmeup">
         <form action="action_page.php">
 
-            <label for="fname">First Name</label><br>
-            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
-
-            <label for="lname">Last Name</label><br>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
-
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name.."><br>
+            <br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email" name="email" placeholder="example@gmail.com"><br>
+            <br>
             <label for="country">Country</label><br>
             <select id="country" name="country">
                 <option value="usa">USA</option>
@@ -42,11 +42,12 @@
                 <option value="United Kingdom">United Kingdom</option>
                 
             </select><br>
-
-            <label for="subject">Subject</label><br>
+            <br>
+            <label for="subject">Message</label><br>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
             <br>
-            <input type="submit" value="Submit">
+            <br>
+            <input type="submit" value="Submit" id="submit">
 
         </form>
     </div>
